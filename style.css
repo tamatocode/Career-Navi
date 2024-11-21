@@ -1,0 +1,168 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #007BFF;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .primary-btn {
+    background: #FFC107;
+    color: #000;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background: #fff;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #007BFF;
+  }
+  
+  .hero p {
+    margin: 1rem 0;
+    color: #555;
+  }
+  
+  .cta-btn {
+    background: #007BFF;
+    color: #fff;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 2rem;
+    background: #f7f7f7;
+    text-align: center;
+  }
+  
+  .features h2 {
+    margin-bottom: 1rem;
+    color: #007BFF;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .feature-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Roadmap Section */
+  .roadmap {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .roadmap h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .roadmap-container {
+    text-align: center;
+  }
+  
+  .roadmap-container input {
+    padding: 0.8rem;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 1rem;
+  }
+  
+  .generate-btn {
+    background: #28A745;
+    color: #fff;
+  }
+  
+  .roadmap-result {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  

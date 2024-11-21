@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerNavi | AI Career Counseling</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">CareerNavi</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="btn primary-btn">Sign Up</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Find Your Dream Career with AI-Powered Guidance</h1>
+      <p>Personalized counseling, skill gap analysis, and mentorship at your fingertips.</p>
+      <button class="btn cta-btn" id="startBtn">Get Started</button>
+    </div>
+    <div class="hero-image">
+      <img src="hero-image.png" alt="Career counseling illustration">
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Platform Features</h2>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <h3>AI-Powered Insights</h3>
+        <p>Get personalized recommendations for your career growth.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Skill Gap Analysis</h3>
+        <p>Identify the skills you need to succeed and find the right resources.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Mentorship Program</h3>
+        <p>Connect with industry experts and build meaningful networks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap Generator Section -->
+  <section id="roadmap" class="roadmap">
+    <h2>Career Roadmap</h2>
+    <div class="roadmap-container">
+      <input type="text" id="careerInput" placeholder="Enter your dream career (e.g., Data Scientist)">
+      <button class="btn generate-btn" id="generateBtn">Generate Roadmap</button>
+    </div>
+    <div id="roadmapResult" class="roadmap-result"></div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 CareerNavi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
